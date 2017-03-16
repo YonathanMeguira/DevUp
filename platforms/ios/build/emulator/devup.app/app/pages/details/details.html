@@ -1,0 +1,9 @@
+<ActionBar ios:title="{{userInfo$.name}}">
+    <ActionItem ios.systemIcon="3" android.systemIcon="ic_menu_save" ios.position="right"></ActionItem>
+</ActionBar>
+<StackLayout>
+    <Image [src]="userInfo$.avatar_url" class="profile-img"></Image>
+    <Label [text]="userInfo$.bio" class="user-name" textWrap="true"></Label>
+    <Label [text]="String.fromCharCode(f124)" class="user-name" textWrap="true"></Label>
+    <Label [text]="userInfo$.location" class="user-name" textWrap="true"></Label>
+</StackLayout>

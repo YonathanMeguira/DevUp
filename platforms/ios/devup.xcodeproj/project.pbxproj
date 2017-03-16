@@ -9,13 +9,13 @@
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		6FB59CCACF0E4739AD7C87EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBC5F64186B4C938B420B38 /* Assets.xcassets */; };
-		803B96A0B4E74A9A8E22DFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50D17DAE289463B987F989D /* LaunchScreen.storyboard */; };
-		375B691BEC4E45769687E123 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 275FE9E8D5894CC2985EB450 /* build.xcconfig */; };
-		6CFE879D235A411393A8CABB /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAA4D2E37654EBC8C0A1DF5 /* TelerikUI.framework */; };
-		DDCB3F32EEF547829AA089FE /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAA4D2E37654EBC8C0A1DF5 /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8C6C14A50AF74A9B94D8FCFA /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3E11B13BE242128AD4305A /* TNSWidgets.framework */; };
-		388709C9725947218F567702 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3E11B13BE242128AD4305A /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7BD12BE9A0604E7086C3549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60330CD2A1934DC29C7F3B89 /* Assets.xcassets */; };
+		00596CA6034F48E6A466A28A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A8BFF80394950A53E6ADB /* LaunchScreen.storyboard */; };
+		0D718422A73046EBA0C21313 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7DDA0CDCE4944862A02A6B5C /* build.xcconfig */; };
+		E8164F9AD9174C54AE2E0175 /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7732F4847DFC45E8A97FE788 /* TelerikUI.framework */; };
+		85752B5DC0824B6AB40CCBBE /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7732F4847DFC45E8A97FE788 /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D37993D392C48039C3391EA /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61377308F5C84E4D8E6BD646 /* TNSWidgets.framework */; };
+		743D00D5EBE041F1B0766DB8 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61377308F5C84E4D8E6BD646 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +25,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DDCB3F32EEF547829AA089FE /* TelerikUI.framework in Embed Frameworks */,
-				388709C9725947218F567702 /* TNSWidgets.framework in Embed Frameworks */,
+				85752B5DC0824B6AB40CCBBE /* TelerikUI.framework in Embed Frameworks */,
+				743D00D5EBE041F1B0766DB8 /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,11 +44,11 @@
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		FEBC5F64186B4C938B420B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "devup/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
-		B50D17DAE289463B987F989D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "devup/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
-		275FE9E8D5894CC2985EB450 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "devup/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
-		6AAA4D2E37654EBC8C0A1DF5 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
-		2C3E11B13BE242128AD4305A /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		60330CD2A1934DC29C7F3B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "devup/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
+		8B6A8BFF80394950A53E6ADB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "devup/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
+		7DDA0CDCE4944862A02A6B5C /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "devup/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
+		7732F4847DFC45E8A97FE788 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
+		61377308F5C84E4D8E6BD646 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CFE879D235A411393A8CABB /* TelerikUI.framework in Frameworks */,
-				8C6C14A50AF74A9B94D8FCFA /* TNSWidgets.framework in Frameworks */,
+				E8164F9AD9174C54AE2E0175 /* TelerikUI.framework in Frameworks */,
+				7D37993D392C48039C3391EA /* TNSWidgets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +86,8 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6AAA4D2E37654EBC8C0A1DF5 /* TelerikUI.framework */,
-				2C3E11B13BE242128AD4305A /* TNSWidgets.framework */,
+				7732F4847DFC45E8A97FE788 /* TelerikUI.framework */,
+				61377308F5C84E4D8E6BD646 /* TNSWidgets.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FEBC5F64186B4C938B420B38 /* Assets.xcassets */,
-				B50D17DAE289463B987F989D /* LaunchScreen.storyboard */,
-				275FE9E8D5894CC2985EB450 /* build.xcconfig */,
+				60330CD2A1934DC29C7F3B89 /* Assets.xcassets */,
+				8B6A8BFF80394950A53E6ADB /* LaunchScreen.storyboard */,
+				7DDA0CDCE4944862A02A6B5C /* build.xcconfig */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -158,12 +158,6 @@
 				CLASSPREFIX = TNS;
 				LastUpgradeCheck = 500;
 				ORGANIZATIONNAME = Telerik;
-				TargetAttributes = {
-					858B83EF18CA22B800AB12DE = {
-						DevelopmentTeam = BHRJ6TH5K9;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "devup" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -189,9 +183,9 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				6FB59CCACF0E4739AD7C87EA /* Assets.xcassets in Resources */,
-				803B96A0B4E74A9A8E22DFD3 /* LaunchScreen.storyboard in Resources */,
-				375B691BEC4E45769687E123 /* build.xcconfig in Resources */,
+				7BD12BE9A0604E7086C3549D /* Assets.xcassets in Resources */,
+				00596CA6034F48E6A466A28A /* LaunchScreen.storyboard in Resources */,
+				0D718422A73046EBA0C21313 /* build.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +341,6 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = BHRJ6TH5K9;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "devup/devup-Prefix.pch";
@@ -376,8 +368,6 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = BHRJ6TH5K9;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "devup/devup-Prefix.pch";

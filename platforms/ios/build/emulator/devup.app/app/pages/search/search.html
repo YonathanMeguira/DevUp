@@ -1,19 +1,20 @@
 <ActionBar android:title="Title">
     <ActionItem>
-        <Label text="{{profile.name}}" *ngIf="profile"></Label>
+        <Label [text]="TotalUser"></Label>
     </ActionItem>
 </ActionBar>
 <StackLayout>
-    <SearchBar #sb hint="Search Github User" (submit)="search($event)"></SearchBar>
-    <ListView [items]="user$ | async" row="2">
+    <SearchBar #sb hint="Search Github User" (submit)="search($event)" (clear)="clear()"></SearchBar>
+    <ActivityIndicator *ngIf="isLoading" width="100" height="100" #activityIndicator busy="{{isLoading}}"></ActivityIndicator>
+    <ListView [items]="user$ | async" row="2" *ngIf="(user$ | async)?.length>0">
         <template let-item="item" minHeight="100">
-            <GridLayout columns="auto, auto" rows="auto" orientation="horizontal" horizontalAlignment="center" verticalAlignment="start">
-                <Image [src]="item.avatar_url" col="0" class="img-rounded"></Image>
-                <StackLayout colSpan="2" row="1">
-                    <Label class="black" [text]="item.login" ></Label>
-                    <Label class="black" [text]="item.score" ></Label>
+            <StackLayout orientation="horizontal" verticalAlignment="center ">
+                <Image [src]="item.avatar_url" col="0" class="img-rounded" (tap)="GetUserUrl(item.login)"></Image>
+                <StackLayout orientation="vertical" verticalAlignment="center">
+                    <Label class="black" [text]="item.login"></Label>
+                    <Label class="black" [text]="RoundScore(item.score)" col="2"></Label>
                 </StackLayout>
-            </GridLayout>
+            </StackLayout>
         </template>
     </ListView>
 </StackLayout>

@@ -25,6 +25,7 @@ export class SearchComponent {
     //public UserList$: BehaviorSubject<Array<string>> = new BehaviorSubject([]);
     constructor(private githubService: GitHubService, private router: Router) {
         // this.user.subscribe(res => console.log(res));
+        this.clear();
     }
     public search(e: any) {
         this.isLoading = true;
