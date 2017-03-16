@@ -1,0 +1,19 @@
+<ActionBar android:title="Title">
+    <ActionItem>
+        <Label text="{{profile.name}}" *ngIf="profile"></Label>
+    </ActionItem>
+</ActionBar>
+<StackLayout>
+    <SearchBar #sb hint="Search Github User" (submit)="search($event)"></SearchBar>
+    <ListView [items]="user$ | async" row="2">
+        <template let-item="item" minHeight="100">
+            <GridLayout columns="auto, auto" rows="auto" orientation="horizontal" horizontalAlignment="center" verticalAlignment="start">
+                <Image [src]="item.avatar_url" col="0" class="img-rounded"></Image>
+                <StackLayout colSpan="2" row="1">
+                    <Label class="black" [text]="item.login" ></Label>
+                    <Label class="black" [text]="item.score" ></Label>
+                </StackLayout>
+            </GridLayout>
+        </template>
+    </ListView>
+</StackLayout>

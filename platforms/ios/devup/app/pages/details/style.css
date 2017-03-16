@@ -1,0 +1,13 @@
+.profile-img {
+    border-radius: 50;
+    border-color: #0072ff;
+    border-width: 5;
+    height: 100;
+    width: 100;
+    margin-top: 20;
+}
+.user-name{
+    color: #333;
+    margin-top: 10;
+    text-align: center;
+}
