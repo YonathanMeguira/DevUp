@@ -6,3 +6,9 @@
     height: 50;
     margin: 10;
 }
+#button{
+    margin: 0;
+    padding: 10;
+    background-color:#2196F3;
+    color: white;
+}

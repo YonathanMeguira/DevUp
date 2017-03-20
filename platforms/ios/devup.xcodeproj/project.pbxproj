@@ -9,13 +9,13 @@
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		7BD12BE9A0604E7086C3549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60330CD2A1934DC29C7F3B89 /* Assets.xcassets */; };
-		00596CA6034F48E6A466A28A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A8BFF80394950A53E6ADB /* LaunchScreen.storyboard */; };
-		0D718422A73046EBA0C21313 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7DDA0CDCE4944862A02A6B5C /* build.xcconfig */; };
-		E8164F9AD9174C54AE2E0175 /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7732F4847DFC45E8A97FE788 /* TelerikUI.framework */; };
-		85752B5DC0824B6AB40CCBBE /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7732F4847DFC45E8A97FE788 /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7D37993D392C48039C3391EA /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61377308F5C84E4D8E6BD646 /* TNSWidgets.framework */; };
-		743D00D5EBE041F1B0766DB8 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61377308F5C84E4D8E6BD646 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0622849C01F64A4083BE7383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DCA455E1AAC4E939FCDC68E /* Assets.xcassets */; };
+		D2544BD7CE424E99A47B29F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A9B78A69F14BFC9EE71DF6 /* LaunchScreen.storyboard */; };
+		5969E96A11034A0DB58AB266 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 662BFC44DF4E43099E2C4513 /* build.xcconfig */; };
+		B66E9F58EF794EC08B81DB4F /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624EEC2149024AE6B3C19E0A /* TelerikUI.framework */; };
+		716D17BEF69F421284AB580D /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 624EEC2149024AE6B3C19E0A /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFB4A0C23AA940398EA67098 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3BE9AB1CEF4E569CD5DFBB /* TNSWidgets.framework */; };
+		038310F7366B40948D8C0473 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3BE9AB1CEF4E569CD5DFBB /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +25,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				85752B5DC0824B6AB40CCBBE /* TelerikUI.framework in Embed Frameworks */,
-				743D00D5EBE041F1B0766DB8 /* TNSWidgets.framework in Embed Frameworks */,
+				716D17BEF69F421284AB580D /* TelerikUI.framework in Embed Frameworks */,
+				038310F7366B40948D8C0473 /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,11 +44,11 @@
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		60330CD2A1934DC29C7F3B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "devup/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
-		8B6A8BFF80394950A53E6ADB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "devup/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
-		7DDA0CDCE4944862A02A6B5C /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "devup/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
-		7732F4847DFC45E8A97FE788 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
-		61377308F5C84E4D8E6BD646 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		1DCA455E1AAC4E939FCDC68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "devup/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
+		E7A9B78A69F14BFC9EE71DF6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "devup/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
+		662BFC44DF4E43099E2C4513 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "devup/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
+		624EEC2149024AE6B3C19E0A /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
+		6F3BE9AB1CEF4E569CD5DFBB /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8164F9AD9174C54AE2E0175 /* TelerikUI.framework in Frameworks */,
-				7D37993D392C48039C3391EA /* TNSWidgets.framework in Frameworks */,
+				B66E9F58EF794EC08B81DB4F /* TelerikUI.framework in Frameworks */,
+				CFB4A0C23AA940398EA67098 /* TNSWidgets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +86,8 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7732F4847DFC45E8A97FE788 /* TelerikUI.framework */,
-				61377308F5C84E4D8E6BD646 /* TNSWidgets.framework */,
+				624EEC2149024AE6B3C19E0A /* TelerikUI.framework */,
+				6F3BE9AB1CEF4E569CD5DFBB /* TNSWidgets.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				60330CD2A1934DC29C7F3B89 /* Assets.xcassets */,
-				8B6A8BFF80394950A53E6ADB /* LaunchScreen.storyboard */,
-				7DDA0CDCE4944862A02A6B5C /* build.xcconfig */,
+				1DCA455E1AAC4E939FCDC68E /* Assets.xcassets */,
+				E7A9B78A69F14BFC9EE71DF6 /* LaunchScreen.storyboard */,
+				662BFC44DF4E43099E2C4513 /* build.xcconfig */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -183,9 +183,9 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				7BD12BE9A0604E7086C3549D /* Assets.xcassets in Resources */,
-				00596CA6034F48E6A466A28A /* LaunchScreen.storyboard in Resources */,
-				0D718422A73046EBA0C21313 /* build.xcconfig in Resources */,
+				0622849C01F64A4083BE7383 /* Assets.xcassets in Resources */,
+				D2544BD7CE424E99A47B29F3 /* LaunchScreen.storyboard in Resources */,
+				5969E96A11034A0DB58AB266 /* build.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,9 +2,13 @@
     <ActionItem>
         <Label [text]="TotalUser"></Label>
     </ActionItem>
+    <ActionItem ios.systemIcon="1O" android.systemIcon="ic_menu_organize" (tap)="OpenFilterOptions()"></ActionItem>
 </ActionBar>
 <StackLayout>
-    <SearchBar #sb hint="Search Github User" (submit)="search($event)" (clear)="clear()"></SearchBar>
+    <GridLayout columns="*, auto " rows="auto">
+        <SearchBar col="0" #sb hint="Search Github User" (submit)="search($event)" (clear)="clear()"></SearchBar>
+        <Button col="1" id="button" text="Filter" (tap) = "OpenFilterOptions()"></Button>
+    </GridLayout>
     <ActivityIndicator *ngIf="isLoading" width="100" height="100" #activityIndicator busy="{{isLoading}}"></ActivityIndicator>
     <ListView [items]="user$ | async" row="2" *ngIf="(user$ | async)?.length>0">
         <template let-item="item" minHeight="100">

@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { GitHubService } from "../../services/github.service";
 import { ActivatedRoute } from "@angular/router";
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
+var utilityModule = require("utils/utils");
+import * as email from "nativescript-email";
 
 
 @Component({
@@ -26,6 +28,24 @@ export class DetailsComponent {
           console.log(JSON.stringify(this.userInfo$));
 
         });
+    });
+  }
+  public OpenUrl(url) {
+    utilityModule.openUrl(url);
+  }
+  public SendEmail() {
+     email.compose({
+      subject: "Yo",
+      body: "Hello <strong>dude</strong> :)",
+      to: ['eddyverbruggen@gmail.com', 'to@person2.com'],
+      cc: ['ccperson@somewhere.com'],
+      bcc: ['eddy@combidesk.com', 'eddy@x-services.nl'],
+      appPickerTitle: 'Compose with..' 
+  }).then(
+    function() {
+      console.log("Email composer closed");
+    }, function(err) {
+      console.log("Error: " + err);
     });
   }
 

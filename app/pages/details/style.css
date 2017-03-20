@@ -11,3 +11,18 @@
     margin-top: 10;
     text-align: center;
 }
+.row-right{
+    margin-right: 10;
+    margin-top: 10;
+}
+.row-left{
+    margin-top: 10;
+    margin-left: 10;
+}
+.url-btn{
+    margin-top: 20;
+    background-color: #333;
+    color: white;
+    border-radius: 5;
+    width: 80%;
+}

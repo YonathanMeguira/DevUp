@@ -4,6 +4,23 @@
 <StackLayout>
     <Image [src]="userInfo$.avatar_url" class="profile-img"></Image>
     <Label [text]="userInfo$.bio" class="user-name" textWrap="true"></Label>
-    <Label [text]="String.fromCharCode(f124)" class="user-name" textWrap="true"></Label>
     <Label [text]="userInfo$.location" class="user-name" textWrap="true"></Label>
+    <GridLayout columns="*, auto" rows="auto, auto, auto, auto, auto, auto">
+        <Label text="Hireable ?" class="row-left" col="0" row="0"></Label>
+        <Label text="Yes " class="row-right" *ngIf="userInfo$.hireable" col="1" textWrap="true" row="0"></Label>
+        <Label text="Nope " class="row-right" *ngIf="!userInfo$.hireable" col="1" textWrap="true" row="0"></Label>
+        <Label text="Email" class="row-left" col="0" row="1"></Label>
+        <Label [text]="userInfo$.email" class="row-right" *ngIf="userInfo$.email" col="1" textWrap="true" row="1"></Label>
+        <Label text="N/A " class="row-right" *ngIf="!userInfo$.email" col="1" textWrap="true" row="1"></Label>
+        <Label text="Public Repos" class="row-left" col="0" row="2"></Label>
+        <Label [text]="userInfo$['public_repos']" class="row-right" col="1" textWrap="true" row="2"></Label>
+        <Label text="Public Gists" class="row-left" col="0" row="3"></Label>
+        <Label [text]="userInfo$['public_gists']" class="row-right" col="1" textWrap="true" row="3"></Label>
+        <Label text="Followers" class="row-left" col="0" row="4"></Label>
+        <Label [text]="userInfo$.followers" class="row-right" col="1" textWrap="true" row="4"></Label>
+        <Label text="Following" class="row-left" col="0" row="5"></Label>
+        <Label [text]="userInfo$.following" class="row-right" col="1" textWrap="true" row="5"></Label>
+    </GridLayout>
+    <Button class="url-btn" (tap)="OpenUrl(userInfo$['html_url'])" text="See Full Profil"></Button>
+    <Button (tap) = "SendEmail()" text="send an email"></Button>
 </StackLayout>

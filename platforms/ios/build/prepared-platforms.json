@@ -16,6 +16,7 @@
     "rxjs": true,
     "symbol-observable": true,
     "url": true,
+    "nativescript-email": true,
     "nativescript-telerik-ui": true,
     "nativescript-theme-core": true,
     "tns-core-modules": true,

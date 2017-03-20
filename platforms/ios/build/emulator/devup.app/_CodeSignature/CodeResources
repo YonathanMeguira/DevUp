@@ -86,7 +86,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		R0C0muJiCpJJqZghE+Qo0H9Q1BU=
+		9iR/na7+81l2iOUDVEqKFllrOOA=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		2FkFFCcFWxxzTAVzb3LSr3ISaT8=
+		FldBl1GwbwJ4NuyRmu1iNW/3SDk=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		LwmALywym8BrGVw6gYT5qE9H/NA=
+		quaga7OvL9ABSBkuv2Unh5pNzsQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -266,35 +266,35 @@
 		</data>
 		<key>app/pages/details/details.comp.js</key>
 		<data>
-		Twkd/TkkAXQ5dHMxf0TdQ15JJC8=
+		uhMbNuWfp3+CIHbjeStiXhfZrZ8=
 		</data>
 		<key>app/pages/details/details.comp.ts</key>
 		<data>
-		w/hqq0hEN292iyBZCriILQSoCws=
+		2h/uQHsJmTmjb0zOjOS2Kx4PzkI=
 		</data>
 		<key>app/pages/details/details.html</key>
 		<data>
-		EAF3Kr9ec4rVhr9f2yaQhoE/1mE=
+		Puj1PaKDOcUHxm84oGycZan+G70=
 		</data>
 		<key>app/pages/details/style.css</key>
 		<data>
-		0wLojJZkhmYMxb5IgB95T7pD4T0=
+		XKc1hqp2anlrp9t7xzOM8YMcfJc=
 		</data>
 		<key>app/pages/search/search.comp.js</key>
 		<data>
-		r0f3KhKbiaAV/deaIkTWg+k5MS4=
+		y+4QB++VUz76nhIVOlr+E0IZ3Gk=
 		</data>
 		<key>app/pages/search/search.comp.ts</key>
 		<data>
-		N141rh/uvBZyym+5C/Nn1w13NTo=
+		WWPZ3ExHmAV76LMv4ZwcBppX8hU=
 		</data>
 		<key>app/pages/search/search.html</key>
 		<data>
-		7qVOZ4GEIAbLv0kgt5LZTDJT0vw=
+		UYzyz/AAW1VcnZw6mFrOdshsjvw=
 		</data>
 		<key>app/pages/search/style.css</key>
 		<data>
-		O3yJ3TDEJoUBO1Tl+fqHq1uM5Lw=
+		hGnBqvdrSbH0Eu3uSORhNnHL/No=
 		</data>
 		<key>app/services/github.service.js</key>
 		<data>
@@ -7639,6 +7639,30 @@
 		<key>app/tns_modules/nativescript-angular/zone-js/dist/zone-nativescript.js</key>
 		<data>
 		skwBeAd0ZbVFH+t5yYUq7d2R0FI=
+		</data>
+		<key>app/tns_modules/nativescript-email/.npmignore</key>
+		<data>
+		WiIvfbwWZIJgGSlzlxDyVb+aUo4=
+		</data>
+		<key>app/tns_modules/nativescript-email/LICENSE</key>
+		<data>
+		8Qg+SqR9Y8ZlF6UtwC1KD4m1KC0=
+		</data>
+		<key>app/tns_modules/nativescript-email/README.md</key>
+		<data>
+		TZbR//IuRZjYShm6Ewyw3zQpBuo=
+		</data>
+		<key>app/tns_modules/nativescript-email/email.d.ts</key>
+		<data>
+		5jd+Sjx/NYtc0PEQiNIv/QE/iHk=
+		</data>
+		<key>app/tns_modules/nativescript-email/email.js</key>
+		<data>
+		dEDkjD1OIRI8cWeZX3owzWPCYR8=
+		</data>
+		<key>app/tns_modules/nativescript-email/package.json</key>
+		<data>
+		+z/O/arbz2Zj4wfuy4ESLISCACg=
 		</data>
 		<key>app/tns_modules/nativescript-intl/README.md</key>
 		<data>
@@ -15436,11 +15460,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R0C0muJiCpJJqZghE+Qo0H9Q1BU=
+			9iR/na7+81l2iOUDVEqKFllrOOA=
 			</data>
 			<key>hash2</key>
 			<data>
-			P5JFE4Dt4TWJwG0wQqngH7HmhBqTdd47ZrB8ZNudUNI=
+			nZr4jlOpVaBI87LYVsDyL+TpBxUmJbSK0gkiB9wS1IE=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -15744,11 +15768,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2FkFFCcFWxxzTAVzb3LSr3ISaT8=
+			FldBl1GwbwJ4NuyRmu1iNW/3SDk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jq4jWEW4dyHa+b/YXLslQEB0DphF/DqfDKPkxEmeCKA=
+			PKNuSwDgZKgRPH2z7Dba5U3uAZpmDXGvNkKlwq1gdII=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -15766,11 +15790,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LwmALywym8BrGVw6gYT5qE9H/NA=
+			quaga7OvL9ABSBkuv2Unh5pNzsQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jq46q4OtndyWhFzdPHLtnojb3Sb8G90uy3cyoNRLdIA=
+			TxT+ID0+15UmiD7koVC+0Ao3Ems9Qg83ov2WA6eVt7M=
 			</data>
 		</dict>
 		<key>app/app.component.js</key>
@@ -15909,88 +15933,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Twkd/TkkAXQ5dHMxf0TdQ15JJC8=
+			uhMbNuWfp3+CIHbjeStiXhfZrZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			VAKnmrN1/5I99tJVocgRMGX2l3hnM6PyPyyCaoBeHiY=
+			lioGQ72ByVYk7Pt1HVFA9pKOxm6yTLXe7aoKGOiLohs=
 			</data>
 		</dict>
 		<key>app/pages/details/details.comp.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w/hqq0hEN292iyBZCriILQSoCws=
+			2h/uQHsJmTmjb0zOjOS2Kx4PzkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			VWOII1lEqNdVU3fiV2Eo02GNPj8VXSe3ivdjNnPPrOA=
+			r/olfkNiPch/Rm5HYRpu9bygA8E7qvuLkBIM+BONdkE=
 			</data>
 		</dict>
 		<key>app/pages/details/details.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EAF3Kr9ec4rVhr9f2yaQhoE/1mE=
+			Puj1PaKDOcUHxm84oGycZan+G70=
 			</data>
 			<key>hash2</key>
 			<data>
-			txABb2UXBSXH8b26XpkaGqlKdd9XdaUL/XDolJWOspg=
+			3IG3UcYxCMc5jIxM5NUSImugkxGRKABxN57DIil62Jg=
 			</data>
 		</dict>
 		<key>app/pages/details/style.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0wLojJZkhmYMxb5IgB95T7pD4T0=
+			XKc1hqp2anlrp9t7xzOM8YMcfJc=
 			</data>
 			<key>hash2</key>
 			<data>
-			a1D0tA1rtM7Wnhx2R2KY4CUruhasURmY1SAJCfpRz+A=
+			fakx7p3Iu2jJ1D89S3We5nEHlV3yBCB2xndSV2xRpCs=
 			</data>
 		</dict>
 		<key>app/pages/search/search.comp.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r0f3KhKbiaAV/deaIkTWg+k5MS4=
+			y+4QB++VUz76nhIVOlr+E0IZ3Gk=
 			</data>
 			<key>hash2</key>
 			<data>
-			/puM26Rgqd4h1jRcAeIBuEhFds3bf0UdAmefB5ScpPE=
+			z1CTQgvN7JK7K2r3OtC8eNmTSS2LMYxNphW1AdW6gXY=
 			</data>
 		</dict>
 		<key>app/pages/search/search.comp.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N141rh/uvBZyym+5C/Nn1w13NTo=
+			WWPZ3ExHmAV76LMv4ZwcBppX8hU=
 			</data>
 			<key>hash2</key>
 			<data>
-			SpK7E0egmoylbMbBPZqFukO8JtH60gCNwC2OZ4M3tGI=
+			ABh+b2j9hdgwya1eXmj/TvhHP8afdFxchNXnFK9vRlg=
 			</data>
 		</dict>
 		<key>app/pages/search/search.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7qVOZ4GEIAbLv0kgt5LZTDJT0vw=
+			UYzyz/AAW1VcnZw6mFrOdshsjvw=
 			</data>
 			<key>hash2</key>
 			<data>
-			M61K+W8v/3/VNfYLI2clCtzNA0/W0vH33F4ckLGVJuk=
+			e+0JOrmwJIfeRzlBtxShc14wfB8F6JtdrQ2jN/lWe0o=
 			</data>
 		</dict>
 		<key>app/pages/search/style.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O3yJ3TDEJoUBO1Tl+fqHq1uM5Lw=
+			hGnBqvdrSbH0Eu3uSORhNnHL/No=
 			</data>
 			<key>hash2</key>
 			<data>
-			ps6zVWNQodlXA6deqoSEtAoJLOpaIrxK/5zU0yi30TM=
+			g8/4UCnAHuUStCajRiI75A5k7u6kDJmq+VF441lH8uY=
 			</data>
 		</dict>
 		<key>app/services/github.service.js</key>
@@ -36187,6 +36211,72 @@
 			<key>hash2</key>
 			<data>
 			gxBIxFjf8/07c6/mZI4E1B0vxXsBlVcDuZwCOv78iwk=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-email/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WiIvfbwWZIJgGSlzlxDyVb+aUo4=
+			</data>
+			<key>hash2</key>
+			<data>
+			eUlJWxQxOrQvDlmQ0y59sZOFLjqFJZbHCcjNiIOYaJY=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-email/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8Qg+SqR9Y8ZlF6UtwC1KD4m1KC0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Yrm5Ms9e/9CX3mdfZgTwXcH6V1U61eJTgVY8DNmpIrQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-email/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TZbR//IuRZjYShm6Ewyw3zQpBuo=
+			</data>
+			<key>hash2</key>
+			<data>
+			/8ExevLXCbqAoWtaLvyuP1X86R3GGpBiD17mpRPGFLA=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-email/email.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5jd+Sjx/NYtc0PEQiNIv/QE/iHk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ef2s6igBOI443cpB8FG3JuV9cG1qkOOhPs+OvS748ds=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-email/email.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dEDkjD1OIRI8cWeZX3owzWPCYR8=
+			</data>
+			<key>hash2</key>
+			<data>
+			d8b2RET1e2Mu7Cq2aN7d6+I++12ve0Y0jilBrAwxILg=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-email/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+z/O/arbz2Zj4wfuy4ESLISCACg=
+			</data>
+			<key>hash2</key>
+			<data>
+			YlQ3scCDpQfM9YYVOYVozymtLlEpY54AImcekfW6U+Y=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-intl/README.md</key>

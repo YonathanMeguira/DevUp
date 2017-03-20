@@ -3,6 +3,7 @@ import { GitHubService } from "../../services/github.service";
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import { Router, NavigationExtras } from "@angular/router";
 import 'rxjs/Rx'; //import all operators
+import * as dialogs from "ui/dialogs";
 
 
 
@@ -42,7 +43,7 @@ export class SearchComponent {
             return Math.floor(score);
         }
     }
-    public clear(){
+    public clear() {
         this.user$.next([]);
     }
     public GetUserUrl(UserLogin) {
@@ -54,4 +55,15 @@ export class SearchComponent {
         this.router.navigate(["/details"], navigationExtras);
     }
 
+    public OpenFilterOptions() {
+        let options = {
+            title: "Search Options",
+            message: "What are you searching",
+            cancelButtonText: "Cancel",
+            actions: ["Users By Location", "Users By Location and Language", "Users By Login"]
+        };
+        dialogs.action(options).then((result) => {
+            console.log(result);
+        });
+    }
 }
